@@ -1,0 +1,63 @@
+.page-width{
+    width:1200px;
+    margin:auto;
+}
+
+.page-container{
+    width:1200px;
+    margin:auto;
+    padding-top:60px;
+    min-height:500px;
+    margin-bottom:30px;
+}
+.el-menu-demo{
+    float:left;
+}
+.el-menu-demo .el-menu-item{
+    width:130px;
+    text-align:center;
+    position: relative;
+}
+.el-menu--horizontal {
+    border-right: none;
+    border-bottom: 0px;
+}
+.el-menu--horizontal > .el-menu-item.is-active{
+    border-bottom:0px;
+    color:#000000;
+    font-weight: bold;
+}
+.el-menu-item.is-active>i.underline{
+    position: absolute;
+    display: block;
+    border-bottom:2px solid #EA6592;
+    width:30px;
+    bottom:16px;
+    left:50px;
+}
+.el-menu--horizontal .el-submenu .el-submenu__title{
+    text-align:center;
+    width:130px;
+}
+.el-menu--horizontal > .el-submenu.is-active .el-submenu__title{
+    border-bottom:0px;
+    font-weight: bold;
+}
+.el-menu--horizontal > .el-submenu.is-active .el-submenu__title>i.underline{
+    position: absolute;
+    display: block;
+    border-bottom:2px solid #EA6592;
+    width:30px;
+    bottom:18px;
+    left:50px;
+}
+.el-submenu .el-menu-item{
+    min-width:130px;
+}
+.el-menu--horizontal .el-submenu .el-submenu__icon-arrow{
+    display:none;
+}
+.el-submenu .el-menu-item.is-active{
+    border-left:2px solid #EA6592;
+}
+
